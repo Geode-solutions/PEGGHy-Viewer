@@ -1,7 +1,0 @@
-{
-  "rpc": "microservice_version",
-  "type": "object",
-  "properties": {},
-  "required": [],
-  "additionalProperties": false
-}
