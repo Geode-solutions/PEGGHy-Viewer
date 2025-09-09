@@ -1,0 +1,6 @@
+.github
+.gitignore
+README.md
+.env
+.pypirc
+requirements.in
