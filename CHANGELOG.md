@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.0-rc.4 (2025-09-15)
+
+### Bug Fixes
+
+- **requirements**: Edit requirements.txt
+  ([`7b4d168`](https://github.com/Geode-solutions/PEGGHy-Viewer/commit/7b4d1683b936864fd1b4cb4d5d239bd1efed88c8))
+
+
 ## v1.0.0-rc.3 (2025-09-15)
 
 ### Bug Fixes
