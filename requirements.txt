@@ -38,7 +38,7 @@ multidict==6.6.3
     #   aiohttp
     #   opengeodeweb-viewer
     #   yarl
-opengeodeweb-viewer==1.10.0
+opengeodeweb-viewer==1.11.0rc5
     # via -r requirements.in
 propcache==0.3.2
     # via
