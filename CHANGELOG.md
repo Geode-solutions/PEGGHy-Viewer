@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.0-rc.6 (2025-10-17)
+
+### Bug Fixes
+
+- **Database**: Support database design
+  ([`382452d`](https://github.com/Geode-solutions/PEGGHy-Viewer/commit/382452dbe51b0fe9266e87f5739129ea23df3581))
+
+
 ## v1.0.0-rc.5 (2025-09-15)
 
 
