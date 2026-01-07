@@ -6,7 +6,7 @@ from opengeodeweb_viewer.vtkw_server import run_server
 # Local application imports
 
 
-def run_viewer():
+def run_viewer() -> None:
     run_server()
 
 
