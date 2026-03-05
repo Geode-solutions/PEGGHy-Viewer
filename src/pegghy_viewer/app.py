@@ -1,7 +1,7 @@
 # Standard library imports
 
 # Third party imports
-from opengeodeweb_viewer.vtkw_server import run_server
+from opengeodeweb_viewer.app import run_server
 
 # Local application imports
 
