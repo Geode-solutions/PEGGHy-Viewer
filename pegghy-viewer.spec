@@ -26,31 +26,15 @@ a = Analysis(
 )
 
 to_exclude = [
-    'opengl32',
-    'opengl32sw',
-    'libEGL',
-    'libGLESv2',
-    'libX11',
-    'libXext',
-    'libXrender',
-    'libXcursor',
-    'libXfixes',
-    'libXi',
-    'libXinerama',
-    'libXrandr',
-    'libXcomposite',
-    'libXdamage',
-    'libXxf86vm',
-    'libxcb',
-    'libxkbcommon',
-    'libwayland',
+    'opengl32.dll',
+    'opengl32sw.dll',
+    'libEGL.dll',
+    'libGLESv2.dll'
 ]
+excluded_norm = {os.path.normcase(x) for x in to_exclude}
 a.binaries = TOC([
     entry for entry in a.binaries
-    if not any(
-        entry[0].lower().startswith(prefix.lower())
-        for prefix in to_exclude
-    )
+    if os.path.normcase(entry[0]) not in excluded_norm
 ])
 
 pyz = PYZ(a.pure)
