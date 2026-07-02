@@ -34,4 +34,6 @@ ENV PYTHON_ENV=prod
 ENV DISPLAY=:0
 
 ENTRYPOINT ["/usr/local/bin/pegghy-viewer"]
-CMD ["--project_folder_path", "/project", "--content", "./www", "--host", "0.0.0.0"]
+CMD ["--project_folder_path", "/project", \
+    "--content", "./www", \
+    "--host", "0.0.0.0"]
